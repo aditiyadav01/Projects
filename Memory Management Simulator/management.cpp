@@ -4,7 +4,6 @@
 
 using namespace std;
 
-// Structure to represent a memory block
 struct MemoryBlock {
     int size;
     int id;
@@ -13,7 +12,6 @@ struct MemoryBlock {
     MemoryBlock(int id, int size) : id(id), size(size), allocated(false) {}
 };
 
-// Structure to represent a process
 struct Process {
     int id;
     int size;
